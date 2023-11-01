@@ -16,3 +16,40 @@ Methods
 -----------------
 <img width="1096" alt="image" src="https://github.com/mustansarfiaz/ScratchFormer/blob/main/demo/proposed_framework.jpg">
 
+实验结果汇总
+指标
+模型	
+Iou_1	
+F1_1
+
+Initial(初始)	
+84.68	
+91.71
+
+Best	
+85.06	
+91.93
+
++ESAM(only stage1)in2p	
+83.93	
+91.26
+
++ESAM(stage1 & stage2)in2p	
+暂无	
+
++ESAM(stage1 & stage2) in1p	
+暂无	
+
++CBAM(all stages)	
+84.36	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

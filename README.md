@@ -16,32 +16,107 @@ Methods
 -----------------
 <img width="1096" alt="image" src="https://github.com/mustansarfiaz/ScratchFormer/blob/main/demo/proposed_framework.jpg">
 
-实验结果汇总
-指标
-模型	
-Iou_1	
-F1_1
+<!DOCTYPE html>
+<html>
+<head>
+    <title>实验结果汇总</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th></th>
+            <th>iou_1</th>
+            <th>f1_1</th>
+        </tr>
+        <tr>
+            <td>initial(初始)</td>
+            <td>84.68</td>
+            <td>91.71</td>
+        </tr>
+        <tr>
+            <td>best performence</td>
+            <td>85.06</td>
+            <td>91.93</td>
+        </tr>
+        <tr>
+            <td>+ESAM(only stage1)in2p</td>
+            <td>83.93</td>
+            <td>91.26</td>
+        </tr>
+        <tr>
+            <td>+ESAM(stage1 & stage2)in2p</td>
+            <td>暂无</td>
+            <td>暂无</td>
+        </tr>
+        <tr>
+            <td>+ESAM(stage1 & stage2) in1p</td>
+            <td>暂无</td>
+            <td>暂无</td>
+        </tr>
+        <tr>
+            <td>+CBAM(all stages)</td>
+            <td>84.36</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>+CrossAtt(all stage)</td>
+            <td>暂无</td>
+            <td>暂无</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
 
-Initial(初始)	
-84.68	
-91.71
-
-Best	
-85.06	
-91.93
-
-+ESAM(only stage1)in2p	
-83.93	
-91.26
-
-+ESAM(stage1 & stage2)in2p	
-暂无	
-
-+ESAM(stage1 & stage2) in1p	
-暂无	
-
-+CBAM(all stages)	
-84.36	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
